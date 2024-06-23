@@ -1,0 +1,23 @@
+﻿<Window x:Class="Пз_29._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Пз_29._1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="358" Width="502">
+    <Grid Margin="0,0,0,0">
+        <StackPanel Margin="10">
+            <TextBox Text="{Binding Amount, Mode=TwoWay}" Height="20" Width="150" Margin="-310, 45, 0, 15"/>
+            <ComboBox ItemsSource="{Binding Currencies}" SelectedItem="{Binding FromCurrency}" Height="20" Width="150" Margin="-310, 20, 0, 10" />
+            <ComboBox ItemsSource="{Binding Currencies}" SelectedItem="{Binding ToCurrency}" Height="20" Width="150" Margin="-310, 20, 0, 10" />
+            <Button Content="Перевести" Command="{Binding ConvertCommand}" Height="20" Width="150" Margin="-310, 0, 0, 0"/>
+            <TextBlock Text="{Binding Result}" Height="20" Width="150" Margin="-310, 45, 0, 15" />
+            <Label Content="Количество валюты:" Height="30" Width="150" Margin="-320, -465, 0, 15"/>
+            <Label Content="Выберите валюту:" Height="30" Width="150" Margin="-320, -355, 0, 15"/>
+            <Label Content="В какую перевести:" Height="30" Width="150" Margin="-320, -255, 0, 15"/>
+            <Label Content="Результат:" Height="30" Width="150" Margin="-320, -100, 0, 15"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

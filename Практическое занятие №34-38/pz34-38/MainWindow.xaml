@@ -1,0 +1,19 @@
+﻿<Window x:Class="Пз_34_38.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Пз_34_38"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="517" Width="525">
+    <Canvas Background="Gray" Name="myCanvas" Focusable="True" KeyDown="OnKeyDown" KeyUp="OnKeyUp">
+        <Rectangle Height="106" Width="20" Fill="White" Tag="roadMarks" Canvas.Left="237" Canvas.Top="-152"/>
+        <Rectangle Height="106" Width="20" Fill="White" Tag="roadMarks" Canvas.Left="237" Canvas.Top="10"/>
+        <Rectangle Height="106" Width="20" Fill="White" Tag="roadMarks" Canvas.Left="237" Canvas.Top="176"/>
+        <Rectangle Height="106" Width="20" Fill="White" Tag="roadMarks" Canvas.Left="237" Canvas.Top="348"/>
+        <Rectangle Tag="Car" Height="80" Width="55" Fill="blue" Canvas.Left="90" Canvas.Top="56"/>
+        <Rectangle Tag="Car" Height="80" Width="55" Fill="Purple" Canvas.Left="400" Canvas.Top="229"/>
+        <Image Name="player" Width="54" Height="80" Canvas.Left="220" Canvas.Top="308" Source="/playerImage.png"/>
+        <Label Name="scoreText" Content="Survived: 00 Seconds" FontSize="18" FontWeight="Bold"/>
+    </Canvas>
+</Window>

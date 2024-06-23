@@ -1,0 +1,17 @@
+﻿<Window x:Class="Пз25_26._4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Пз25_26._4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="eventListBox" HorizontalAlignment="Left" Height="415" VerticalAlignment="Center" Width="415" DisplayMemberPath="Name" ItemsSource="{Binding Events}"/>
+        <Button x:Name="AddPoset" Content="Добавить" HorizontalAlignment="Left" Margin="470,25,0,0" VerticalAlignment="Top" Width="155" Click="AddVisitor_Click_1"/>
+        <Button x:Name="marking" Content="Отметить" HorizontalAlignment="Left" Margin="470,75,0,0" VerticalAlignment="Top" Width="155" Click="MarkAttendance_Click_1"/>
+        <Button x:Name="inform" Content="Создать отчет" HorizontalAlignment="Left" Margin="470,125,0,0" VerticalAlignment="Top" Width="155" Click="GenerateReport_Click_1"/>
+        <Button Content="Очистить" HorizontalAlignment="Left" Margin="470,175,0,0" VerticalAlignment="Top" Width="155" Click="Clear_Click_1"/>
+
+    </Grid>
+</Window>

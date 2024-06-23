@@ -1,0 +1,15 @@
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\bin\Debug\Пз№29.№1.exe.config
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\bin\Debug\Пз№29.№1.exe
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\bin\Debug\Пз№29.№1.pdb
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\obj\Debug\Пз№29.№1.csproj.AssemblyReference.cache
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\obj\Debug\MainWindow.g.cs
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\obj\Debug\App.g.cs
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\obj\Debug\Пз№29.№1_MarkupCompile.cache
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\obj\Debug\Пз№29.№1_MarkupCompile.lref
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\obj\Debug\MainWindow.baml
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\obj\Debug\Пз№29.№1.g.resources
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\obj\Debug\Пз_29._1.Properties.Resources.resources
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\obj\Debug\Пз№29.№1.csproj.GenerateResource.cache
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\obj\Debug\Пз№29.№1.csproj.CoreCompileInputs.cache
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\obj\Debug\Пз№29.№1.exe
+D:\Users\is2211_sad\Desktop\Практическое занятие №29\Пз№29.№1\obj\Debug\Пз№29.№1.pdb

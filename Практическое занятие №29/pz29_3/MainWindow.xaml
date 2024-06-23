@@ -1,0 +1,31 @@
+﻿<Window x:Class="Пз_29._3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Пз_29._3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Label Content="Назване заметки:"/>
+            <TextBox x:Name="txtTitle" Text="{Binding Path=NewNoteTitle, Mode=TwoWay}" Width="150" Margin="-625, 0, 0, 0"/>
+            <Label Content="Описание:"/>
+            <TextBox x:Name="txtText" Text="{Binding Path=NewNoteText, Mode=TwoWay}" TextWrapping="Wrap" Height="100" Width="210" Margin="-565, 0, 0, 0"/>
+            <Button Content="Добавить" Command="{Binding noteCommandAdd}" Height="20" Width="100" Margin="-675, 10, 0, 0"/>
+            <Button Content="Удалить" Command="{Binding noteCommandDelete}" CommandParameter="{Binding SelectedNote}" Height="20" Width="100" Margin="-450, -20, 0, 0"/>
+
+            <ListBox ItemsSource="{Binding Notes}" SelectedItem="{Binding SelectedNote}" Height="200" Width="780" Margin="0, 20, 0, 0">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding title}"/>
+                            <TextBlock Text="{Binding text}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+        </StackPanel>
+    </Grid>
+</Window>
